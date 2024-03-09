@@ -25,7 +25,7 @@ export function approvalAddress() {
 }
 
 const nativeToken = '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE';
-const feeCollectorAddress = '0x9Ab6164976514F1178E2BB4219DA8700c9D96E9A';
+const feeCollectorAddress = '0x2373a942FEbC0ee428b266bDD58275794E7f1553'//'0x9Ab6164976514F1178E2BB4219DA8700c9D96E9A';
 
 export async function getQuote(chain: string, from: string, to: string, amount: string, extra) {
 	// amount should include decimals

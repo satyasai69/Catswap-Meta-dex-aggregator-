@@ -37,11 +37,11 @@ const LoaderBody = styled.img`
 		}
 	}
 `;
-
+//loaderImg.src
 const Loader = (props) => {
 	return (
 		<LoaderWrapper {...props}>
-			<LoaderBody src={loaderImg.src} />
+			<LoaderBody src={`https://ideogram.ai/api/images/direct/nwEZgh1QR_6ovdyO4xy4RQ.png`} />
 			<LoaderText>Loading...</LoaderText>
 		</LoaderWrapper>
 	);

@@ -936,15 +936,15 @@ export function AggregatorContainer({ tokenList, sandwichList }) {
 				/>
 			) : null}
 
-			<Text fontSize="1rem" fontWeight="500" display={{ base: 'none', md: 'block', lg: 'block' }}>
-				This product is still in beta. If you run into any issue please let us know in our{' '}
+<Text fontSize="1rem" fontWeight="500" display={{ base: 'none', md: 'block', lg: 'block' }}>
+				catswap airdrop coiming soon{' '}
 				<a
 					style={{ textDecoration: 'underline' }}
 					target={'_blank'}
 					rel="noreferrer noopener"
 					href="https://discord.swap.defillama.com/"
 				>
-					discord server
+					
 				</a>
 			</Text>
 
@@ -955,18 +955,7 @@ export function AggregatorContainer({ tokenList, sandwichList }) {
 							<Flex>
 								<Box>Chain</Box>
 								<Spacer />
-								<Tooltip content="Redirect requests through the DefiLlama Server to hide your IP address">
-									<FormControl display="flex" alignItems="baseline" gap="6px" justifyContent={'center'}>
-										<FormLabel htmlFor="privacy-switch" margin={0} fontSize="14px" color="gray.400">
-											Hide IP
-										</FormLabel>
-										<Switch
-											id="privacy-switch"
-											onChange={(e) => setIsPrivacyEnabled(e?.target?.checked)}
-											isChecked={isPrivacyEnabled}
-										/>
-									</FormControl>
-								</Tooltip>
+								
 								<SettingsIcon onClick={() => setSettingsModalOpen((open) => !open)} ml={4} mt={1} cursor="pointer" />
 								{isSmallScreen && finalSelectedFromToken && finalSelectedToToken ? (
 									<ArrowForwardIcon
@@ -1446,3 +1435,20 @@ export function AggregatorContainer({ tokenList, sandwichList }) {
 		</Wrapper>
 	);
 }
+
+
+
+// line 958  hide ip
+
+/**<Tooltip content="Redirect requests through the DefiLlama Server to hide your IP address">
+									<FormControl display="flex" alignItems="baseline" gap="6px" justifyContent={'center'}>
+										<FormLabel htmlFor="privacy-switch" margin={0} fontSize="14px" color="gray.400">
+											 IP
+										</FormLabel>
+										<Switch
+											id="privacy-switch"
+											onChange={(e) => setIsPrivacyEnabled(e?.target?.checked)}
+											isChecked={isPrivacyEnabled}
+										/>
+									</FormControl>
+								</Tooltip> */

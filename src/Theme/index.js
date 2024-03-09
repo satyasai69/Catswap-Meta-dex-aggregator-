@@ -38,9 +38,9 @@ const theme = (mode = 'dark') => {
 		bg7: getStyle('bg7', 'rgba(7,14,15,0.7)'),
 
 		//specialty colors
-		background: getStyle('background', '#22242A'),
-		advancedBG: getStyle('advancedBG', 'rgba(0,0,0,0.1)'),
-		divider: getStyle('divider', 'rgba(43, 43, 43, 0.435)'),
+		background: getStyle('background', '#22242A'), //#22242A
+		advancedBG: getStyle('advancedBG', 'rgba(0,0,0,0.1)'),//rgba(0,0,0,0.1)
+		divider: getStyle('divider', 'rgba(43, 43, 43, 0.435)'), //rgba(43, 43, 43, 0.435)
 
 		//primary colors
 		primary1: getStyle('primary1', '#2172E5'),
@@ -55,7 +55,13 @@ const theme = (mode = 'dark') => {
 		shadowSm: '0 1px 2px 0 rgb(0 0 0 / 0.05)',
 		shadow: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
 		shadowMd: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
-		shadowLg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+		shadowLg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)', 
+
+		
+
+
+
+
 
 		// breakpoints
 		bpSm: `${sm}rem`,

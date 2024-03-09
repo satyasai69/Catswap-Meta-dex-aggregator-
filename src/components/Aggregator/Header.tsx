@@ -34,13 +34,13 @@ const Header = ({ children }) => {
 				cursor="pointer"
 			>
 				<Image
-					src={loaderImg.src}
+					src={`https://ideogram.ai/api/images/direct/nwEZgh1QR_6ovdyO4xy4RQ.png`}//{loaderImg.src}
 					w={['28px', '28px', '36px', '36px']}
 					h={['28px', '28px', '36px', '36px']}
 					mr="8px"
 					alt="logo"
 				/>
-				LlamaSwap
+				CatSwap
 			</Name>
 			{children}
 		</Wrapper>

@@ -34,14 +34,14 @@ interface ILayoutProps {
 	backgroundColor?: string;
 	style?: React.CSSProperties;
 }
-
+//<Phishing />
 export default function Layout({ title, children, ...props }: ILayoutProps) {
 	return (
 		<>
 			<Head>
 				<title>{title}</title>
 			</Head>
-			<Phishing />
+			
 			<ThemeProvider>
 				<GlobalStyle />
 				<PageWrapper>

@@ -45,7 +45,7 @@ const SwapConfiramtion = ({
 						<PopoverBody>
 							We can't get price for one of your tokens. <br />
 							Check output amount of the selected route carefully.
-							<Button colorScheme={'red'} onClick={handleSwap} mt={4}>
+							<Button colorScheme={'pink'} onClick={handleSwap} mt={4}>
 								Swap
 							</Button>
 						</PopoverBody>

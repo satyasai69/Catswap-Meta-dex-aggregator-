@@ -629,6 +629,7 @@ const LlamaIcon = (
 			</filter>
 		</defs>
 	</svg>
+	
 );
 
 const SmolCheck = (
